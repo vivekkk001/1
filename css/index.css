@@ -1,0 +1,77 @@
+/* General Body Styling */
+body {
+    font-family: Candara;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(60deg, #1c7a6c, #88e7d2);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #10233b;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #a7c2e3;
+}
+
+/* Main Section Styling */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+main section h2 {
+    font-size: 24px;
+    color: #204060;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #88a4b6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+main section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Footer Styling (Optional if needed for a Home Page Footer) */
+footer {
+    text-align: center;
+    background-color: #204060;
+    color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
